@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 50px 0 0 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background: #333;
+    color: #ff6347;
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header nav ul li a:hover {
+    color: #ff6347;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.header-right .cart-icon {
+    color: #ff6347;
+    margin-right: 20px;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.header-right .cart-icon:hover {
+    color: #ffa07a;
+}
+
+.header-right .language-selector {
+    background: #fff;
+    color: #ff6347;
+    border: none;
+    padding: 5px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+#hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero-content .hero-image {
+    width: 800px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.content-section {
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.wine-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.wine-item {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.wine-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.wine-item h3 {
+    margin: 10px 0;
+}
+
+#cta .button {
+    background: #ff6347;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer form label,
+footer form input,
+footer form button {
+    margin: 5px 0;
+}
+
+.social-media {
+    margin: 20px 0;
+}
+
+.social-media a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #ff6347;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
